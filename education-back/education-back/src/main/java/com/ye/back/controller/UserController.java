@@ -30,4 +30,9 @@ public class UserController {
         return "测试接口二 ...";
     }
 
+    @CrossOrigin
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
+    public String login() {
+        return "登陆界面";
+    }
 }
