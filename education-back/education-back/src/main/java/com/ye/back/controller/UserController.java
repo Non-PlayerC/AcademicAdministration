@@ -21,13 +21,13 @@ public class UserController {
     @CrossOrigin
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test() {
-        return "/test 接口测试";
+        return "test 接口测试";
     }
 
     @CrossOrigin
     @RequestMapping(value = "/test2",method = RequestMethod.GET)
     public String test2() {
-        return "/test2 接口测试";
+        return "测试接口二 ...";
     }
 
 }
