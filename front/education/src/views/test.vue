@@ -13,7 +13,7 @@ export default {
     },
     methods: {
         testMethod() {
-            this.$axios.get("http://localhost:8888/user/test").then((response) => {
+            this.$axios.get("http://localhost:8888/user/test").then(response => {
                 this.test = response.data
             }).catch((err) => {
                 console.log("error" + err);
